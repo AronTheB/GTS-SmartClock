@@ -10,13 +10,15 @@ The project uses a ESP32 DevKit, a OLED SSD1306 Screen, and a mxcherry switch. T
 ## KIKAD
 This is the Schematic:
 
-<img width="582" height="524" alt="image" src="https://github.com/user-attachments/assets/83e99238-2f84-4917-8b1d-647cb79607a2" />
+<img width="941" height="566" alt="image" src="https://github.com/user-attachments/assets/0edfeaf6-03d9-4d5a-8c48-2debf1d861d3" />
+
 
 <br></br>
 
 This is the PCB layout and wiring:
 
-<img width="505" height="567" alt="image" src="https://github.com/user-attachments/assets/474494e2-360a-4446-b338-43afdfb31452" />
+<img width="1093" height="663" alt="image" src="https://github.com/user-attachments/assets/b527c249-71f9-4522-a232-85be377f8d18" />
+
 
 <br></br>
 ## FUSION
