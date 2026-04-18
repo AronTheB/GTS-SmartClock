@@ -24,7 +24,8 @@ This is the PCB layout and wiring:
 ## FUSION
 This is the 3D Model of the case:
 
-<img width="512" height="512" alt="SmartClock" src="https://github.com/user-attachments/assets/a8ae84bd-dbcc-4fa7-aae1-e9a622140e97" />
+<img width="667" height="547" alt="Screenshot 2026-04-18 150345" src="https://github.com/user-attachments/assets/6909674c-e7ff-4097-b052-944dbb837285" />
+
 
 ## BOM
 
