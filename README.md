@@ -18,7 +18,6 @@ This is the Schematic:
 <br></br>
 
 This is the PCB layout and wiring:
-
 <img width="1093" height="663" alt="image" src="https://github.com/user-attachments/assets/b527c249-71f9-4522-a232-85be377f8d18" />
 
 
