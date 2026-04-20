@@ -11,7 +11,7 @@ For my first non guided Hardware project i made a Smart Clock that can tell me t
 
 The project uses a Xiao ESP32 C3, a OLED SSD1306 Screen, and a MxCherry switch with a keycap. The case will be 3d printed and be spray painted and painted to get its color.
 
-The clock is pretty simple to use. It has a single button which changes the current mode to the next one. It can be built by downloading the Gerber PCB files and buying them from a PCB printing company like JLCPCB or PCBWAY. You also need to buy the correct components which are linked in the BOM section, and 3d print the case or design a new one. After everything arrives solder everything to the board and upload the firmware to the ESP32.
+The clock is pretty simple to use. It has a single button which changes the current mode to the next one. The smart clock can be built by downloading the Gerber PCB files and buying them from a PCB printing company like JLCPCB or PCBWAY. You also need to buy the correct components which are linked in the BOM section, and 3d print the case or design a new one. After everything arrives solder everything to the board and upload the firmware to the ESP32.
 
 ## KIKAD
 This is the Schematic:
