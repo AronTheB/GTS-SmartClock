@@ -1,11 +1,13 @@
+
 # GTS-SmartClock
-(Get To School Smart Clock)
 
-This project is made for https://fallout.hackclub.com/
+<img width="1920" height="1080" alt="Get To School (1920 x 1080 px) (1)" src="https://github.com/user-attachments/assets/61e6069c-51c3-4aa1-b96d-9a82c8cd5431" />
 
-As a first not guided Hardware project i decided to make a Smart Clock that can tell me the time, but it also connects to the public transport API and tells me when i my next bus going and also when will i get to my destination if i leave at that moment. Other features will be added in the future
 
-The project uses a ESP32 DevKit, a OLED SSD1306 Screen, and a mxcherry switch. The case will be 3d printed and be painted on or spray painted to get a good color.
+<br><br/>
+For my first non guided Hardware project i decided to make a Smart Clock that can tell me the time, but it also connects to the public transport API and tells me when i my next bus going and also when will i get to my destination if i leave at that moment. Other features will be added in the future
+
+The project uses a Xiao ESP32 C3, a OLED SSD1306 Screen, and a MxCherry switch. The case will be 3d printed and be spray painted and painted to get its color.
 
 ## KIKAD
 This is the Schematic:
@@ -24,7 +26,8 @@ This is the PCB layout and wiring:
 ## FUSION
 This is the 3D Model of the case:
 
-<img width="667" height="547" alt="Screenshot 2026-04-18 150345" src="https://github.com/user-attachments/assets/6909674c-e7ff-4097-b052-944dbb837285" />
+<img width="585" height="546" alt="Screenshot 2026-04-18 154616" src="https://github.com/user-attachments/assets/130c4cb8-347b-432d-aa5a-70d6fbaa6ea4" />
+
 
 
 ## BOM
@@ -41,7 +44,6 @@ This is the 3D Model of the case:
 | PCB                | JLCPCB     | ≈ $5.00 | 1 | Yes |
 
 **Total Cost:** $14.22
-
 
 
 
