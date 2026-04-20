@@ -32,8 +32,6 @@ This is the 3D Model of the case:
 
 ## BOM
 
-## Bill of Materials (BOM)
-
 | Name               | Link        | Price  | Quantity | Need To Buy? |
 |--------------------|------------|--------|----------|--------------|
 | ESP32 DevKitC      | [LINK](https://www.aliexpress.com/item/1005007084388623.html?spm=a2g0o.detail.0.0.17fcu9H1u9H1Gp&mp=1#nav-review) | $5.13  | 1 | Yes |
