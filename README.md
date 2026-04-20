@@ -1,13 +1,17 @@
 
-# GTS-SmartClock
+# GTS-Smart Clock
 
 <img width="1920" height="1080" alt="Get To School (1920 x 1080 px) (1)" src="https://github.com/user-attachments/assets/61e6069c-51c3-4aa1-b96d-9a82c8cd5431" />
 
 
 <br><br/>
-For my first non guided Hardware project i decided to make a Smart Clock that can tell me the time, but it also connects to the public transport API and tells me when i my next bus going and also when will i get to my destination if i leave at that moment. Other features will be added in the future
+For some reason I always need to run to the bus stop so I can catch the bus, so instead of trying to leave earlier I designed the GTS Smart Clock which can tell me when to leave so I reach it without running and waiting.
 
-The project uses a Xiao ESP32 C3, a OLED SSD1306 Screen, and a MxCherry switch. The case will be 3d printed and be spray painted and painted to get its color.
+For my first non guided Hardware project i made a Smart Clock that can tell me the time, but it also connects to the public transport API and tells me when i my next bus going and also when will i get to my destination if i leave at that moment. Other features will be added in the future
+
+The project uses a Xiao ESP32 C3, a OLED SSD1306 Screen, and a MxCherry switch with a keycap. The case will be 3d printed and be spray painted and painted to get its color.
+
+The clock is pretty simple to use. It has a single button which changes the current mode to the next one.
 
 ## KIKAD
 This is the Schematic:
