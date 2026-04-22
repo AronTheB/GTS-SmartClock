@@ -18,6 +18,11 @@ const char* NTP_SERVER = "pool.ntp.org";
 #define OLED_RESET     -1
 #define SCREEN_ADDRESS 0x3C
 
+#define BUTTON_PIN 2
+
+bool screenOn = true;
+bool lastButtonState = HIGH;
+
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 void connectToWiFi() {
@@ -41,9 +46,6 @@ void syncNTP() {
   Serial.println("synced");
 }
 
-// put function declarations here:
-int myFunction(int, int);
-
 void setup() {
   Serial.begin(115200);
     if(!display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS)) {
@@ -58,15 +60,29 @@ void setup() {
   syncNTP();
 }
 
-
 void loop() {
-  struct tm timeinfo;
-  if (getLocalTime(&timeinfo)) {
-    display.clearDisplay();
-    display.setTextSize(2);
-    display.setCursor(0, 0);
-    display.printf("%02d:%02d:%02d", timeinfo.tm_hour, timeinfo.tm_min, timeinfo.tm_sec);
-    display.display();
+
+  bool currentButtonState = digitalRead(BUTTON_PIN);
+  if (lastButtonState == HIGH && currentButtonState == LOW) {
+    screenOn = !screenOn;
+    if (!screenOn) {
+      display.clearDisplay();
+      display.display();
+    }
+    delay(50);
   }
-  delay(1000);
+  lastButtonState = currentButtonState;
+
+
+  if (screenOn) {
+    struct tm timeinfo;
+    if (getLocalTime(&timeinfo)) {
+      display.clearDisplay();
+      display.setTextSize(2);
+      display.setCursor(0, 0);
+      display.printf("%02d:%02d:%02d", timeinfo.tm_hour, timeinfo.tm_min, timeinfo.tm_sec);
+      display.display();
+    }
+  }
+  delay(200);
 }
