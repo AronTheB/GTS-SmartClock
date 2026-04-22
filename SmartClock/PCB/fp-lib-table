@@ -4,4 +4,5 @@
   (lib (name "OLED")(type "KiCad")(uri "H:/Downloads/KiCad-SSD1306_OLED-0.91-128x32-master/KiCad-SSD1306_OLED-0.91-128x32-master")(options "")(descr ""))
   (lib (name "OLED2")(type "KiCad")(uri "H:/Downloads/kbd-main/kbd-main/kicad-footprints/kbd.pretty")(options "")(descr ""))
   (lib (name "OLED3")(type "KiCad")(uri "H:/Downloads/DM-OLED096-636")(options "")(descr ""))
+  (lib (name "house")(type "KiCad")(uri "C:/Users/a_buk/Pictures/Screenshots")(options "")(descr ""))
 )

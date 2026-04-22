@@ -1072,7 +1072,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 39.37 90)
+		(at 95.25 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1081,7 +1081,7 @@
 		(fields_autoplaced yes)
 		(uuid "65ccba3c-526a-46d2-b896-727362f4860b")
 		(property "Reference" "#PWR01"
-			(at 101.6 39.37 0)
+			(at 101.6 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1090,7 +1090,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 39.3699 90)
+			(at 99.06 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1099,7 +1099,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 39.37 0)
+			(at 95.25 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1108,7 +1108,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 39.37 0)
+			(at 95.25 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1117,7 +1117,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 39.37 0)
+			(at 95.25 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
