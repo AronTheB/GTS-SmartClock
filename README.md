@@ -1,8 +1,7 @@
 
 # GTS-Smart Clock
 
-<img width="1920" height="1080" alt="Get To School (1920 x 1080 px) (1)" src="https://github.com/user-attachments/assets/61e6069c-51c3-4aa1-b96d-9a82c8cd5431" />
-
+<img width="1920" height="1080" alt="Get To School (1920 x 1080 px)" src="https://github.com/user-attachments/assets/60ceec99-9153-4196-b8e2-1a3b472f665f" />
 
 <br><br/>
 For some reason I always need to run to the bus stop so I can catch the bus, so instead of trying to leave earlier I designed the GTS Smart Clock which can tell me when to leave so I reach it without running and waiting.
