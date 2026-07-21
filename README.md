@@ -8,9 +8,18 @@ For some reason I always need to run to the bus stop so I can catch the bus, so 
 
 For my first non guided Hardware project i made a Smart Clock that can tell me the time, but it also connects to the public transport API and tells me when i my next bus going and also when will i get to my destination if i leave at that moment. Other features will be added in the future
 
-The project uses a Xiao ESP32 C3, a OLED SSD1306 Screen, and a MxCherry switch with a keycap. The case will be 3d printed and be spray painted and painted to get its color.
+The project uses a Xiao ESP32 C3, a OLED SSD1306 Screen, and a MxCherry switch with a keycap.
 
 The clock is pretty simple to use. It has a single button which changes the current mode to the next one. The smart clock can be built by downloading the Gerber PCB files and buying them from a PCB printing company like JLCPCB or PCBWAY. You also need to buy the correct components which are linked in the BOM section, and 3d print the case or design a new one. After everything arrives solder everything to the board and upload the firmware to the ESP32. After that just put everything in the case like in the CAD model and connect it to power via a c-type cable. You can close the case by mainly screwing it in the screwhole with a 2mm x 5mm screw, but you could make it work with saller or a bit larger one (If your 3d printer cant print the icons on the top just remove them from the model and print it without them)
+
+You need to also set up a config.h file in the included folder. (you might have to rewrite the api part of the code if you are using a different api)
+
+#define WIFI_SSID     "WIFINAME"
+#define WIFI_PASSWORD "WIFIPASSPORT"
+#define BKK_API_KEY   "PUBLICTRANSPORTAPIKEY"
+#define BKK_STOP_ID    "BUSSTOPID"
+#define BUS_ROUTE_SHORT_NAME "BUSNAME"
+#define BUS_DIRECTION_HEADSIGN "BUSDESTINATION"
 
 In the pcb the pins for the oled screen are reveresd so you need to use wires to wire them in instead of a header pin
 
