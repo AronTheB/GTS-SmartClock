@@ -4,6 +4,9 @@
 <img width="1920" height="1080" alt="Get To School (1920 x 1080 px)" src="https://github.com/user-attachments/assets/60ceec99-9153-4196-b8e2-1a3b472f665f" />
 
 <br><br/>
+
+### DEMO VIDEO: https://youtu.be/dEGiFh21TzU
+
 For some reason I always need to run to the bus stop so I can catch the bus, so instead of trying to leave earlier I designed the GTS Smart Clock which can tell me when to leave so I reach it without running and waiting.
 
 For my first non guided Hardware project i made a Smart Clock that can tell me the time, but it also connects to the public transport API and tells me when i my next bus going and also when will i get to my destination if i leave at that moment. Other features will be added in the future
@@ -46,6 +49,11 @@ This is the PCB layout and wiring:
 This is the 3D Model of the case:
 
 <img width="585" height="546" alt="Screenshot 2026-04-18 154616" src="https://github.com/user-attachments/assets/130c4cb8-347b-432d-aa5a-70d6fbaa6ea4" />
+
+## Build
+
+
+<img width="1801" height="1332" alt="image" src="https://github.com/user-attachments/assets/dc41d10e-291e-453b-9dc5-b7e0db401f2a" />
 
 
 
